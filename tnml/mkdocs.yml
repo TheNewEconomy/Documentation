@@ -1,0 +1,7 @@
+site_name: TheNewMenuLibrary Docs
+
+repo_name: TheNewEconomy/TNML
+repo_url: https://github.com/TheNewEconomy/TNML
+
+nav:
+  - Intro: 'index.md'

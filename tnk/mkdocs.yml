@@ -1,0 +1,10 @@
+site_name: TheNewKings Docs
+
+repo_name: TheNewEconomy/TheNewKings
+repo_url: https://github.com/TheNewEconomy/TheNewKings
+
+theme: 
+  logo: assets/logo.png
+
+nav:
+  - Intro: 'index.md'

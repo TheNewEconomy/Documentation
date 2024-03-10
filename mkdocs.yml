@@ -1,0 +1,77 @@
+site_name: TheNewEconomy Docs
+
+repo_name: TheNewEconomy/Documentation
+repo_url: https://github.com/TheNewEconomy/Documentation
+edit_uri: edit/main/docs/
+
+copyright: Copyright &copy; 2015 - 2024 Daniel "creatorfromhell" Vidmar
+
+theme:
+    name: material
+    features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.footnote.tooltips
+    - content.tabs.link
+    - content.tooltips
+    - header.autohide
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.prune
+    - navigation.path
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - toc.integrate
+
+    palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: fontawesome/regular/lightbulb
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: fontawesome/solid/lightbulb
+        name: Switch to light mode
+    font:
+      text: Roboto
+      code: Roboto Mono
+    logo: assets/logo.png
+    icon:
+      repo: fontawesome/brands/github-alt
+
+nav:
+  - Home: 'index.md'
+  - TNE: '!include ./tne/mkdocs.yml'
+  - TNK: '!include ./tnk/mkdocs.yml'
+  - TNML: '!include ./tnml/mkdocs.yml'
+
+plugins:
+  - monorepo
+
+extra:
+    social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/TheNewEconomy
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/WNdwzpy

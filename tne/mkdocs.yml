@@ -1,0 +1,13 @@
+site_name: TheNewEconomy Docs
+
+repo_name: TheNewEconomy/EconomyCore
+repo_url: https://github.com/TheNewEconomy/EconomyCore
+
+nav:
+  - Users:
+    - TNE: 'index.md'
+    - Setup: 'setup.md'
+  - Developers:
+    - API: 'api.md'
+    - Implement Handler: 'handlers.md'
+    - Implement Platform: 'platform.md'
