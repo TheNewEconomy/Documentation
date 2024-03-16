@@ -63,11 +63,16 @@ theme:
 nav:
   - Home: 'index.md'
   - TNE: '!include ./tne/mkdocs.yml'
+  - PW: '!include ./pw/mkdocs.yml'
   - TNK: '!include ./tnk/mkdocs.yml'
   - TNML: '!include ./tnml/mkdocs.yml'
 
 plugins:
   - monorepo
+
+markdown_extensions:
+  - pymdownx.tabbed:
+      alternate_style: true  
 
 extra:
     social:

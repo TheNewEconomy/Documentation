@@ -1,15 +1,16 @@
 # Welcome to TheNewEconomy Documentation!
 
-## Commands
+## Minecraft
+Minecraft-related projects are located here.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+### The New Economy
+The New Economy, TNE, is the ultimate economy plugin for your Minecraft server, no matter what platform you're on.
 
-## Project layout
+### The New Kings
+Coming soon.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+### Phantom Worlds
+A world management plugin for Spigot.
+
+### The New Menu Library
+A cross-platform library that can be used to create inventory-based menu systems.

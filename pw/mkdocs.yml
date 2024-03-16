@@ -1,0 +1,14 @@
+site_name: PW Docs
+
+repo_name: TheNewEconomy/PhantomWorlds
+repo_url: https://github.com/TheNewEconomy/PhantomWorlds
+
+nav:
+  - Users:
+    - Home: 'index.md'
+    - Install: 'user/install.md'
+    - Commands: 'user/commands.md'
+  - Developers:
+    - Contribute: 'developer/contribute.md'
+    - License: 'developer/license.md'
+    - Credits: 'developer/credits.md'

@@ -6,8 +6,10 @@ repo_url: https://github.com/TheNewEconomy/EconomyCore
 nav:
   - Users:
     - TNE: 'index.md'
-    - Setup: 'setup.md'
+    - Setup: 'user/setup.md'
+    - Currencies: 'user/currency.md'
   - Developers:
-    - API: 'api.md'
-    - Implement Handler: 'handlers.md'
-    - Implement Platform: 'platform.md'
+    - License: 'developer/license.md'
+    - API: 'developer/api.md'
+    - Implement Handler: 'developer/handlers.md'
+    - Implement Platform: 'developer/platform.md'
