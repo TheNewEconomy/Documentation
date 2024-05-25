@@ -18,7 +18,7 @@
     * `generator` - The world generator to use for this world.
       * Valid options: `<YourGeneratorHere>`; e.g. `generator:CleanroomGenerator:.` if you are using [CleanroomGenerator](https://dev.bukkit.org/projects/cleanroomgenerator)
     * `generatorSettings` - Advanced generator settings, supplied in JSON.
-      * Valid options: Too many to supply here; read more about it [here](https://minecraft.fandom.com/wiki/Java_Edition_level_format#generatorOptions_tag_format).
+      * Valid options: Too many to supply here; read more about it [here](https://minecraft.wiki/w/Java_Edition_level_format#generatorOptions_tag_format).
     * `hardcore` - Whether this world will follow the hardcore ruleset.
       * Valid options: `true` and `false`; e.g. `hardcore:true`
     * `seed` - The seed to use.
